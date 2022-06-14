@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            padding: 0px 30px 30px 30px;
+            background-color: beige;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2 style="text-align: center;">Very Very Important Form</h2>
+        <table>
+            <tr>
+                <td width="100px"><label for="name">Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td width="100px"><label for="pwd">Password:</label></td>
+                <td><input type="password" name="pwd" id="pwd"></td>
+            </tr>
+            <tr>
+                <td width="100px">Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px">Skills:</td>
+                <td>
+                    <input type="checkbox" name="skills" id="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="skills" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" name="skills" id="python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="skills" id="html">
+                    <label for="html">HTML</label>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px"><label for="qualifications">Qualifications:</label></td>
+                <td>
+                    <select name="qualifications" id="qualifications">
+                        <option value="none">None</option>
+                        <option value="high-school-diploma">High School Diploma</option>
+                        <option value="masters">Masters</option>
+                        <option value="phd">PhD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px"><label for="dob">DOB:</label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+        </table>
+        <div style="text-align: center; padding-top: 10px;">
+            <button>Register</button>
+            <button>Reset</button>
+        </div>
+    </form>
+</body>
+</html>
