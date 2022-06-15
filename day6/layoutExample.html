@@ -4,84 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        html {
-            height: 100%;
-        }
-
-        body {
-            margin: 0px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .flex {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #header {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #mid {
-            height: 100%;
-            width: 100%;
-            display: flex;
-        }
-
-        #footer {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #left {
-            height: 100%;
-            width: 100%;
-        }
-
-        #center {
-            height: 100%;
-            width: 100%;
-        }
-
-        #right {
-            height: 100%;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="layoutExample.css">
+    <title>Layout Example</title>
 </head>
 <body>
-    <div id="header">
-        <div style="background-color: red; height: 98%; width: 99%;" class="flex">
-            <div style="background-color: white; height: 98%; width: 99%;"></div>
-        </div>
-    </div>
-    <div id="mid">
-        <div id="left" style="background-color: red; height: 98%; width: 99%;" class="flex">
-            <div style="background-color: white; height: 98%; width: 99%;"></div>
-        </div>
-        <div id="center" style="background-color: red; height: 98%; width: 99%;" class="flex">
-            <div style="background-color: white; height: 98%; width: 99%;"></div></div>
-        <div id="right" style="background-color: red; height: 98%; width: 99%;" class="flex">
-            <div style="background-color: white; height: 98%; width: 99%;"></div>
-        </div>
-    </div>
-    <div id="footer">
-        <div style="background-color: red; height: 98%; width: 99%;" class="flex">
-            <div style="background-color: white; height: 98%; width: 99%;"></div>
-        </div>
-    </div>
+    <div class="box" id="header"></div>
+    <div class="box" id="menu"></div>
+    <div class="box" id="content"></div>
+    <div class="box" id="ads"></div>
+    <div class="box" id="footer"></div>
 </body>
 </html>
