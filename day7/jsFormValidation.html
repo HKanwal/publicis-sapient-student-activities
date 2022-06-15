@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            padding: 0px 30px 30px 30px;
+            background-color: beige;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" name="form">
+        <h2 style="text-align: center;">Very Very Important Form</h2>
+        <table>
+            <tr>
+                <td width="150px"><label for="firstname">First Name:</label></td>
+                <td><input type="text" id="firstname"></td>
+            </tr>
+            <tr>
+                <td width="150px"><label for="lastname">Last Name:</label></td>
+                <td><input type="text" id="lastname"></td>
+            </tr>
+            <tr>
+                <td width="150px">Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td width="150px"><label for="pwd">Password:</label></td>
+                <td><input type="password" name="pwd" id="pwd"></td>
+            </tr>
+            <tr>
+                <td width="150px"><label for="pwd2">Confirm Password:</label></td>
+                <td><input type="password" name="pwd2" id="pwd2"></td>
+            </tr>
+            <tr>
+                <td width="150px">Skills:</td>
+                <td>
+                    <input type="checkbox" name="skills" id="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="skills" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" name="skills" id="python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="skills" id="html">
+                    <label for="html">HTML</label>
+                </td>
+            </tr>
+        </table>
+        <div style="text-align: center; padding-top: 10px;">
+            <button id="register" onclick="handleSubmit()">Register</button>
+            <button id="reset">Reset</button>
+        </div>
+    </form>
+    <script src="jsFormValidation.js"></script>
+</body>
+</html>
