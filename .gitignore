@@ -19,3 +19,4 @@ output
 *.js.map
 PhantomJS_*
 Servers
+.idea/
