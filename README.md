@@ -8,3 +8,5 @@ What I learned:
 - Java fundamentals
 - Spring Boot
 - Spring Cloud Microservices w/ Spring Boot
+- JUnit
+- AWS
