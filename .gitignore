@@ -19,6 +19,7 @@ output
 *.js.map
 PhantomJS_*
 Servers# See http://help.github.com/ignore-files/ for more about ignoring files.
+day15/
 
 # Compiled output
 /dist
