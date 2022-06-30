@@ -5,6 +5,7 @@ What I learned:
 - HTML/CSS/JavaScript
 - React
 - Angular
+- SQL
 - MongoDB
 - Java fundamentals
 - Spring Boot
@@ -14,3 +15,4 @@ What I learned:
 - DevOps
 - Jenkins
 - Docker
+- Kubernetes
